@@ -1,0 +1,11 @@
+<div class="container">
+    <mat-form-field class="example-form-field" appearance="fill">
+        <mat-label>Password</mat-label>
+        <input matInput type="password" [(ngModel)]="value" (input)="handleChange()">
+    </mat-form-field>
+    <div class="scale" [class.length-error]="lengthEr">
+        <div class="unit" [style.background-color]="bar0"></div>
+        <div class="unit" [style.background-color]="bar1"></div>
+        <div class="unit" [style.background-color]="bar2"></div>
+    </div>
+</div>
