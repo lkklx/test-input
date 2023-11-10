@@ -1,0 +1,12 @@
+.scale{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    .unit{
+        margin: 0 5px;
+        width: 40px;
+        height: 10px;
+        border-radius: 10px;
+        border: 1px solid transparent;
+    }
+}
